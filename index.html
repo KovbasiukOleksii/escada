@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+    <title>ESCADA</title>
+    <head>
+<!--       
+           Bootstrap4
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-  2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    </head>
+<script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1000);
+    });
+});
+    
+    
+</script>
+<body>
+            <nav id="menu">
+               <ul>
+                  <li>
+                  <img src="image/logo_escada.png">
+                  </li>
+                  <li>
+                  <a href="#contakt">Контакти</a>
+                  </li>
+                  <li>
+                  <a href="#acsess">Аксесуари</a>
+                  </li>
+                  <li>
+                  <a href="#woman">Жіночий одяг</a>
+                  </li>
+                  <li>
+                  <a href="#man">Чоловічий одяг</a>
+                  </li>
+                  <li>
+                  <a href="#head">Головна</a>
+                  </li>
+               </ul>
+           </nav>
+           <header id="head">
+           <div class="container">
+               <div class="title">
+               <img src="image/logo_escada_black.png">
+               <h2> САЛОН ШКІРИ ТА ХУТРА</h2>
+               <p>
+                   "Esscada Exclusive" пропонує великий вибір верхнього одягу виробництва Туреччини. Понад 25 років успішно працюємо у цій сфері й здійснюємо продаж шкіряних і хутряних виробів відмінної якості.
+               </p>
+               </div>
+           <ul class="social">
+               <li><a href="https://www.facebook.com/aleksey.doomski"target="_blank"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.instagram.com/adoomski/" target="_blank"><i class="fa fa-instagram" ></i></a></li>
+           </ul>
+           </div>
+              <div class="season_logo">
+               <img src="image/new_season_logo.png">
+               </div>
+           </header>
+           <section id="woman">
+               <div class="container">
+                  <div>
+                   <h2>Жіночий верхній одяг</h2>
+                 </div>
+             <div class="check_this">
+                 <img class="foto_item" src="image/bobr/DSC_3704.jpg" alt="">
+                 <a href="#">шуби із бобрика </a>
+             </div>
+               <div class="check_this">
+                 <img class="foto_item" src="image/Norka/DSC_3534.jpg" alt="">
+                 <a href="#">шуби із норки </a>
+             </div>
+               <div class="check_this">
+                 <img class="foto_item" src="image/Muton/DSC_0816.jpg" style="height: 305px" alt="">
+                 <a href="#">шуби із мутона </a>
+             </div>
+               <div class="check_this">
+                 <img class="foto_item" src="image/bobr/DSC_3704.jpg" alt="">
+                 <a href="#">шуби із бобрика </a>
+             </div>
+               </div>
+           </section>
+</body>
+</html>

@@ -55,8 +55,9 @@ nav li a:hover {
     text-decoration: none;
 }
 header {
-    background: url(image/DSC_3696-min.jpg) no-repeat center top / cover;
+    background: url(image/DSC_3639.jpg) no-repeat center top / cover;
     width: 100%;
+    text-align: center;
 }
 .title img {
     padding-top: 80px;
@@ -89,9 +90,7 @@ header p {
     transition: 0.3s;
 }
 .season_logo img {
-    position:relative;
-    left: 75%;
-    width: 200px;
+    width: 300px;
 }
 #woman {
     height: 100vh;

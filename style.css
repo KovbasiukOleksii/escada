@@ -212,6 +212,7 @@ header p {
     text-align: center;
     color: #fff;
     margin-bottom: 50px;
+    text-transform: uppercase;
 }
 .about_foto {
     float: right;
@@ -224,11 +225,36 @@ header p {
 #about li {
     margin-left: 20px;
 }
-
-
-
-
-
+#contact {
+    margin-top: 100px;
+    color: #fff;
+}
+#contact h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.map {
+    display: inline-block;
+    float: left;
+    margin-bottom: 30px;
+}
+.map iframe {
+    width: 400px;
+    height: 300px;
+}
+.gm-style {
+    border-radius: 5px;
+}
+.logo_footer img {
+    width: 400px;
+    float: right;
+}
+.adress {
+    font-size: 18px;
+    width: 400px;
+    float: right;
+    margin-right: 20px;
+}
 
 
 

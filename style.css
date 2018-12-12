@@ -31,7 +31,7 @@ body {
 }
 @media only screen and (max-width: 414px) {
     #menu img { 
-        margin-top: 15px;
+        margin-top: 10px;
         margin-left: 0px;
         width: 50px;
     }

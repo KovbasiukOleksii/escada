@@ -62,7 +62,7 @@ nav li {
 }
 @media only screen and (max-width: 910px) {
     nav li {  
-        padding: .2rem .5rem;
+        padding: .5rem .5rem;
     }
 }
 
@@ -85,6 +85,11 @@ nav li {
 nav li:nth-child(1n+2) {
     float: right;
     padding-top: 20px;
+}
+@media only screen and (max-width: 414px) {
+    nav li {  
+        padding: .5rem .2rem;
+    }
 }
 nav li a {
     font-weight: bold;

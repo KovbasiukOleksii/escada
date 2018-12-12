@@ -49,6 +49,11 @@ nav {
   background: #1A1819;
   z-index: 1111;
 }
+@media only screen and (max-width: 414px) {
+    nav {  
+        height: 40px;
+    }
+}
 nav li {
     display: inline-block;
     list-style: none;
@@ -58,6 +63,11 @@ nav li {
 @media only screen and (max-width: 910px) {
     nav li {  
         padding: .5rem .5rem;
+    }
+}
+@media only screen and (max-width: 414px) {
+    nav li {  
+        padding: .1rem .7rem;
     }
 }
 @media only screen and (max-width: 640px) {
@@ -339,6 +349,11 @@ header p {
     right: 31%;
     opacity: 1;
 }
+@media only screen and (max-width: 1200px) {
+    #acsess {  
+        display: none;
+    }
+}
 .img_acsess {
     margin-top: 60px;
     width: 100%;
@@ -391,11 +406,12 @@ header p {
    margin-top: 450px;
    color: #fff;
 }
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 1200px) {
     #about {  
-        margin-top: 300px;
+        margin-top: 30px;
     }
 }
+
 #about h2 {
     text-align: center;
     color: #fff;

@@ -65,11 +65,7 @@ nav li {
         padding: .5rem .5rem;
     }
 }
-@media only screen and (max-width: 414px) {
-    nav li {  
-        padding: .1rem .5rem;
-    }
-}
+
 @media only screen and (max-width: 640px) {
     nav li:nth-child(4) {  
         display: none;

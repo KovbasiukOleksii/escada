@@ -243,7 +243,8 @@ header p {
     text-transform: uppercase;
 }
 #woman h5 {
-    width: 110px;
+    display: inline-block;
+    width: 150px;
 }
 .check_this {
     display: inline-block;

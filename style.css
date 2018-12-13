@@ -244,12 +244,11 @@ header p {
 }
 #woman h5 {
     display: inline-block;
-    width: 150px;
 }
 
 @media only screen and (max-width: 414px) {
    #woman h5 {  
-        width: 80px;
+       margin-left: 15px;
     }
 }
 .check_this {
@@ -317,6 +316,7 @@ header p {
 }
 #woman p {
     color: #fff;
+    margin: 0;
 }
 #woman h5 {
     line-height: 1;

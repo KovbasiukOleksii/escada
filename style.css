@@ -246,6 +246,12 @@ header p {
     display: inline-block;
     width: 150px;
 }
+
+@media only screen and (max-width: 414px) {
+   #woman h5 {  
+        width: 100px;
+    }
+}
 .check_this {
     display: inline-block;
     margin-right: 45px;
